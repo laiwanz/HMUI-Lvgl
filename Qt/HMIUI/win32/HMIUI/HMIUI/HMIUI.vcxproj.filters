@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HSWAddrOperate">
+      <UniqueIdentifier>{f105a846-91c7-4560-b983-2a4e3bede0b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Emulator">
+      <UniqueIdentifier>{391b5228-5f66-4b3c-8946-24eb2a695a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PluginDLL">
+      <UniqueIdentifier>{795eaadd-b0d7-4eb7-b077-dcb22ba6cf15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaCallback">
+      <UniqueIdentifier>{ae1cd569-46fd-4cdf-9b51-25ba697aa63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webserverCallback">
+      <UniqueIdentifier>{467c8d12-cb4b-495b-adf9-7de722d323c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventDispatch">
+      <UniqueIdentifier>{5a36e79a-e62b-4340-af40-e5b34ef95e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MqttThirdParty">
+      <UniqueIdentifier>{087d30d9-160b-4cc4-a888-5084d20070cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task">
+      <UniqueIdentifier>{a2386a8b-eab1-421c-b0a5-9dea576ccd74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cloud">
+      <UniqueIdentifier>{1cea515c-29a7-418e-affe-e60fde637327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cloud\include">
+      <UniqueIdentifier>{e8165dac-0e0a-47d6-82e9-d0a790042293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cloud\parse">
+      <UniqueIdentifier>{d1ad4973-9764-4dad-973f-a56d3785c7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cloud\ccommon">
+      <UniqueIdentifier>{6cf4f6e3-b0fb-4284-b378-440ff1004dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cloud\cloudoperator">
+      <UniqueIdentifier>{fba68375-7625-4690-a824-605b95c5966a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SlaveMode">
+      <UniqueIdentifier>{d427faf3-0927-4380-ba6a-cac19114eb55}</UniqueIdentifier>
+    </Filter>
+    </Filter>
+    <Filter Include="HJ212Control">
+      <UniqueIdentifier>{1242171b-fc88-494f-984f-fad00997bb2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\HMIUI\HSWAddrOperate\HswAddrInit.cpp">
+      <Filter>HSWAddrOperate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\HSWAddrOperate\HswAddrMonitor.cpp">
+      <Filter>HSWAddrOperate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\HSWAddrOperate\HswAddrSet.cpp">
+      <Filter>HSWAddrOperate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\Emulator\HmiEmulator.cpp">
+      <Filter>Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\PluginDLL\PluginDLL.cpp">
+      <Filter>PluginDLL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\HMIUI.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\LuaCallback\LuaCallback.cpp">
+      <Filter>LuaCallback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\webserverCallback\webserverCallback.cpp">
+      <Filter>webserverCallback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\EventDispatcher\EventDispatch.cpp">
+      <Filter>EventDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\EventDispatcher\HandleEvent.cpp">
+      <Filter>EventDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\EventDispatcher\DispEventHandle.cpp">
+      <Filter>EventDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\HSWAddrOperate\OldSaveAddrFileInit.cpp">
+      <Filter>HSWAddrOperate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\MqttThirdParty\MqttThirdParty.cpp">
+      <Filter>MqttThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\task\task.cpp">
+      <Filter>task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\task\parseProject.cpp">
+      <Filter>task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\task\common.cpp">
+      <Filter>task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\cloud\parse\cloudparse.cpp">
+      <Filter>cloud\parse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\cloud\ccommon\ccommon.cpp">
+      <Filter>cloud\ccommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\cloud\cloudoperator\cloudoperator.cpp">
+      <Filter>cloud\cloudoperator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\cloud\parse\luaparse.cpp">
+      <Filter>cloud\parse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\SlaveMode\SlaveMode.cpp">
+      <Filter>SlaveMode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\HSWAddrOperate\serialmanager.cpp">
+      <Filter>HSWAddrOperate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HMIUI\HJ212Control\HJ212Control.cpp">
+      <Filter>HJ212Control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\HMIUI\Emulator\HmiEmulator.h">
+      <Filter>Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\Emulator\WECDecryptFile.h">
+      <Filter>Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\PluginDLL\PluginDLL.h">
+      <Filter>PluginDLL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\LuaCallback\LuaCallback.h">
+      <Filter>LuaCallback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\webserverCallback\webserverCallback.h">
+      <Filter>webserverCallback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\EventDispatcher\EventDispatch.h">
+      <Filter>EventDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\EventDispatcher\HandleEvent.h">
+      <Filter>EventDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\EventDispatcher\DispEventHandle.h">
+      <Filter>EventDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\HSWAddrOperate\HSWAddrOperate.h">
+      <Filter>HSWAddrOperate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\MqttThirdParty\MqttThirdParty.h">
+      <Filter>MqttThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\task\task.h">
+      <Filter>task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\task\parseProject.h">
+      <Filter>task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\task\common.h">
+      <Filter>task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\cloud\cloud.h">
+      <Filter>cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\cloud\include\clouddef.h">
+      <Filter>cloud\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\cloud\parse\cloudparse.h">
+      <Filter>cloud\parse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\cloud\ccommon\ccommon.h">
+      <Filter>cloud\ccommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\cloud\cloudoperator\cloudoperator.h">
+      <Filter>cloud\cloudoperator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\cloud\parse\luaparse.h">
+      <Filter>cloud\parse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\SlaveMode\SlaveMode.h">
+      <Filter>SlaveMode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\HSWAddrOperate\serialmanager.h">
+      <Filter>HSWAddrOperate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HMIUI\HJ212Control\HJ212Control.h">
+      <Filter>HJ212Control</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

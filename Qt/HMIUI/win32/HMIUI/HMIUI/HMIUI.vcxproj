@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2E86EAF-3519-34F2-9023-7E74A6E147C1}</ProjectGuid>
+    <RootNamespace>HMIUI</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.28127.55</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\..\PIBin\Hmi_bin\Win_Debug\</OutDir>
+    <IntDir>..\..\..\..\..\PIBin\Hmi_obj\Win_Debug\$(ProjectName)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\..\PIBin\Hmi_bin\Win_Release\</OutDir>
+    <IntDir>..\..\..\..\..\PIBin\Hmi_obj\Win_Release\$(ProjectName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <BuildLog>
+      <Path>$(IntDir)$(MSBuildProjectName).log</Path>
+    </BuildLog>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\PIBin\Include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;WITH_UI;X86;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PrecompiledHeaderFile />
+      <DisableSpecificWarnings>4146;4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>WECDecryptDLL.lib;GlobalModule.lib;HmiBase.lib;HmiGui.lib;ProtoXML.lib;ScriptMgr.lib;SVGParts.lib;zlib.lib;platform.lib;WsfiFile.lib;secure.lib;utility.lib;LuaScript.lib;Register.lib;RegisterOpt.lib;DevCacheMgr.lib;driveradapter.lib;webserver.lib;hmiScreens.lib;recordcenter.lib;cbld.lib;IIOT.MQTT.lib;remoteProcedureCallApi.lib;netT.lib;HJ212.lib;CSlaveModule.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\..\..\PIBin\Hmi_bin\Win_Debug\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <BuildLog>
+      <Path>$(IntDir)$(MSBuildProjectName).log</Path>
+    </BuildLog>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\PIBin\Include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;WITH_UI;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>WECDecryptDLL.lib;GlobalModule.lib;HmiBase.lib;HmiGui.lib;ProtoXML.lib;ScriptMgr.lib;SVGParts.lib;zlib.lib;platform.lib;WsfiFile.lib;secure.lib;utility.lib;LuaScript.lib;Register.lib;RegisterOpt.lib;DevCacheMgr.lib;driveradapter.lib;webserver.lib;hmiScreens.lib;recordcenter.lib;cbl.lib;IIOT.MQTT.lib;remoteProcedureCallApi.lib;netT.lib;CSlaveModule.lib;HJ212.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\..\..\PIBin\Hmi_bin\Win_Release\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <EntryPointSymbol>wmainCRTStartup</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\HMIUI\cloud\ccommon\ccommon.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\cloud\cloudoperator\cloudoperator.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\cloud\parse\cloudparse.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\cloud\parse\luaparse.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\Emulator\HmiEmulator.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\EventDispatcher\DispEventHandle.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\EventDispatcher\EventDispatch.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\EventDispatcher\HandleEvent.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\HJ212Control\HJ212Control.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\HMIUI.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\HSWAddrOperate\HswAddrInit.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\HSWAddrOperate\HswAddrMonitor.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\HSWAddrOperate\HswAddrSet.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\HSWAddrOperate\OldSaveAddrFileInit.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\HSWAddrOperate\serialmanager.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\LuaCallback\LuaCallback.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\MqttThirdParty\MqttThirdParty.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\PluginDLL\PluginDLL.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\SlaveMode\SlaveMode.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\task\common.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\task\parseProject.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\task\task.cpp" />
+    <ClCompile Include="..\..\..\HMIUI\webserverCallback\webserverCallback.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\HMIUI\cloud\ccommon\ccommon.h" />
+    <ClInclude Include="..\..\..\HMIUI\cloud\cloud.h" />
+    <ClInclude Include="..\..\..\HMIUI\cloud\cloudoperator\cloudoperator.h" />
+    <ClInclude Include="..\..\..\HMIUI\cloud\include\clouddef.h" />
+    <ClInclude Include="..\..\..\HMIUI\cloud\parse\cloudparse.h" />
+    <ClInclude Include="..\..\..\HMIUI\cloud\parse\luaparse.h" />
+    <ClInclude Include="..\..\..\HMIUI\Emulator\HmiEmulator.h" />
+    <ClInclude Include="..\..\..\HMIUI\Emulator\WECDecryptFile.h" />
+    <ClInclude Include="..\..\..\HMIUI\EventDispatcher\DispEventHandle.h" />
+    <ClInclude Include="..\..\..\HMIUI\EventDispatcher\EventDispatch.h" />
+    <ClInclude Include="..\..\..\HMIUI\EventDispatcher\HandleEvent.h" />
+    <ClInclude Include="..\..\..\HMIUI\HJ212Control\HJ212Control.h" />
+    <ClInclude Include="..\..\..\HMIUI\HSWAddrOperate\HSWAddrOperate.h" />
+    <ClInclude Include="..\..\..\HMIUI\HSWAddrOperate\serialmanager.h" />
+    <ClInclude Include="..\..\..\HMIUI\LuaCallback\LuaCallback.h" />
+    <ClInclude Include="..\..\..\HMIUI\MqttThirdParty\MqttThirdParty.h" />
+    <ClInclude Include="..\..\..\HMIUI\PluginDLL\PluginDLL.h" />
+    <ClInclude Include="..\..\..\HMIUI\SlaveMode\SlaveMode.h" />
+    <ClInclude Include="..\..\..\HMIUI\task\common.h" />
+    <ClInclude Include="..\..\..\HMIUI\task\parseProject.h" />
+    <ClInclude Include="..\..\..\HMIUI\task\task.h" />
+    <ClInclude Include="..\..\..\HMIUI\webserverCallback\webserverCallback.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\HmiBase\win32\HmiBase\HmiBase\HmiBase.vcxproj">
+      <Project>{854c52d1-4e84-43cb-a255-a58ee3a04304}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\ProtoXML\win32\ProtoXML\ProtoXML\ProtoXML.vcxproj">
+      <Project>{e75c8bb4-6318-4464-868c-5af0ef9fabcc}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

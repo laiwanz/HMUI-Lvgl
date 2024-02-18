@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="EventMgr">
+      <UniqueIdentifier>{115ed929-c4a6-4978-af46-770554d4397a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HmiGui">
+      <UniqueIdentifier>{af8bfe4f-6cd2-4543-9c6d-0856ea907ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="msgTip">
+      <UniqueIdentifier>{5877a3e6-a973-496d-a7ce-044ec9a3f8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="msgTip\msgTip">
+      <UniqueIdentifier>{6b1eabd0-e7c9-4952-a67c-91b8153e16bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="msgTip\lineShap">
+      <UniqueIdentifier>{816fb777-e207-4c83-b208-55ee559a0010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="msgTip\tipWidget">
+      <UniqueIdentifier>{65ccc779-6370-4497-a845-5b916552248c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screenSaver">
+      <UniqueIdentifier>{71b535e7-6bea-432a-8354-517124ead131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screenSaver\blinds">
+      <UniqueIdentifier>{d55225ea-2b24-43a6-b258-a22b1fd58c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screenSaver\bubbles">
+      <UniqueIdentifier>{c05a1c20-ea65-431f-8f1c-660540b1207a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screenSaver\common">
+      <UniqueIdentifier>{bab733b7-782b-4464-a697-b3844f4cc488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screenSaver\lattice">
+      <UniqueIdentifier>{f61ddd9c-0c4b-40bd-b129-01cd1df4a121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screenSaver\screenSaver">
+      <UniqueIdentifier>{415bda58-7511-4141-9ba5-f3643d4c129c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\..\HmiGui\commonpart.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\custompart.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\generalpart.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\hmimgr.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\hmiscreen.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\qrlabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\slider.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\ComboBox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\msgTip\msgTip\msgTip.h">
+      <Filter>msgTip\msgTip</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\msgTip\tipWidget\timeoutTip.h">
+      <Filter>msgTip\tipWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\msgTip\tipWidget\commonTip.h">
+      <Filter>msgTip\tipWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\screenSaver\blinds\blinds.h">
+      <Filter>screenSaver\blinds</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\screenSaver\bubbles\bubbles.h">
+      <Filter>screenSaver\bubbles</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\screenSaver\lattice\lattice.h">
+      <Filter>screenSaver\lattice</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\camera.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\weatherUi.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\HmiGui\hmidef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\hmipart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\hmiutility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\imgcachemgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\keyBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\qrencode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\EventMgr\EventMgr.h">
+      <Filter>EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\HmiGui\HmiGui.h">
+      <Filter>HmiGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\msgTip\lineShap\lineShap.h">
+      <Filter>msgTip\lineShap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\msgTip\tipWidget\debugTip.h">
+      <Filter>msgTip\tipWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\msgTip\tipWidget\tipWidget.h">
+      <Filter>msgTip\tipWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\screenSaver\screenSaverFactory.h">
+      <Filter>screenSaver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\screenSaver\blinds\leaf.h">
+      <Filter>screenSaver\blinds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\screenSaver\bubbles\ball.h">
+      <Filter>screenSaver\bubbles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\screenSaver\common\common.h">
+      <Filter>screenSaver\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\screenSaver\screenSaver\screenSaver.h">
+      <Filter>screenSaver\screenSaver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\QImageZCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\HmiGui\commonpart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\custompart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\generalpart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\hmimgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\hmipart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\hmiscreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\hmiutility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\imgcachemgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\keyBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\qrlabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\slider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\EventMgr\EventMgr.cpp">
+      <Filter>EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\HmiGui\HmiGui.cpp">
+      <Filter>HmiGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\ComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\msgTip\lineShap\lineShap.cpp">
+      <Filter>msgTip\lineShap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\msgTip\msgTip\msgTip.cpp">
+      <Filter>msgTip\msgTip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\msgTip\tipWidget\commonTip.cpp">
+      <Filter>msgTip\tipWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\msgTip\tipWidget\debugTip.cpp">
+      <Filter>msgTip\tipWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\msgTip\tipWidget\timeoutTip.cpp">
+      <Filter>msgTip\tipWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\msgTip\tipWidget\tipWidget.cpp">
+      <Filter>msgTip\tipWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\screenSaver\screenSaverFactory.cpp">
+      <Filter>screenSaver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\screenSaver\blinds\blinds.cpp">
+      <Filter>screenSaver\blinds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\screenSaver\blinds\leaf.cpp">
+      <Filter>screenSaver\blinds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\screenSaver\bubbles\ball.cpp">
+      <Filter>screenSaver\bubbles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\screenSaver\bubbles\bubbles.cpp">
+      <Filter>screenSaver\bubbles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\screenSaver\common\common.cpp">
+      <Filter>screenSaver\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\screenSaver\lattice\lattice.cpp">
+      <Filter>screenSaver\lattice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\screenSaver\screenSaver\screenSaver.cpp">
+      <Filter>screenSaver\screenSaver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\weatherUi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\QImageZCache.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

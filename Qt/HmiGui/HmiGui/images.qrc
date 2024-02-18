@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>network_config_images/close.png</file>
+        <file>network_config_images/close_all.png</file>
+        <file>network_config_images/close_button.png</file>
+        <file>network_config_images/ethopen.png</file>
+        <file>network_config_images/ip_image.png</file>
+        <file>network_config_images/radiobutton_checked.png</file>
+        <file>network_config_images/wifi.png</file>
+        <file>network_config_images/wifi_signal_value_1.png</file>
+        <file>network_config_images/wifi_signal_value_2.png</file>
+        <file>network_config_images/wifi_signal_value_3.png</file>
+        <file>network_config_images/wifi_signal_value_4.png</file>
+        <file>network_config_images/wifiopen.png</file>
+        <file>network_config_images/dot.png</file>
+        <file>keyboard_images/close_keyboard.png</file>
+        <file>keyboard_images/delete_press.png</file>
+        <file>keyboard_images/delete_release.png</file>
+        <file>keyboard_images/enter.png</file>
+        <file>keyboard_images/space.png</file>
+        <file>keyboard_images/keyboard_background.png</file>
+        <file>network_config_images/loading_more.gif</file>
+        <file>network_config_images/wifi_connected.png</file>
+        <file>network_config_images/save_close.png</file>
+        <file>network_config_images/cancel_close.png</file>
+        <file>network_config_images/ethernet_connected.png</file>
+        <file>network_config_images/ethernet_disconnect.png</file>
+        <file>network_config_images/ethernet_line_break.png</file>
+    </qresource>
+</RCC>

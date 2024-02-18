@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="formula">
+      <UniqueIdentifier>{3c3bd8ce-f1b4-4547-995a-54f05ddd2e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{5689b057-dc3c-44a5-8bac-c1bccee1b137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="preview">
+      <UniqueIdentifier>{93f63d05-ec54-4a3b-b11b-b06147d8a625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="formula\AddFormulaGroupWnd">
+      <UniqueIdentifier>{066e66d7-9bf3-4624-848a-f0db5ad5b799}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\HmiGui\config\formulaconfig.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\formula\csvgbutton.h">
+      <Filter>formula</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\formula\cwecontablemodel.h">
+      <Filter>formula</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\preview\formulapreview.h">
+      <Filter>preview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\formula\cdialogbox.h">
+      <Filter>formula</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HmiGui\formula\ctoastdialog.h">
+      <Filter>formula</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\HmiGui\formula\cchangepageedit.cpp">
+      <Filter>formula</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\formula\cformulasearchwnd.cpp">
+      <Filter>formula</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\formula\csvgbutton.cpp">
+      <Filter>formula</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\formula\cwecontable.cpp">
+      <Filter>formula</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\formula\cwecontablemodel.cpp">
+      <Filter>formula</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\preview\formulapreview.cpp">
+      <Filter>preview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\formula\cweconclearedit.cpp">
+      <Filter>formula</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\formula\cdialogbox.cpp">
+      <Filter>formula</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\formula\ctoastdialog.cpp">
+      <Filter>formula</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HmiGui\formula\AddFormulaGroupWnd\AddFormulaGroupWnd.cpp">
+      <Filter>formula\AddFormulaGroupWnd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\..\HmiGui\formula\cchangepageedit.h">
+      <Filter>formula</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\formula\cwecontable.h">
+      <Filter>formula</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\formula\cformulasearchwnd.h">
+      <Filter>formula</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\formula\cweconclearedit.h">
+      <Filter>formula</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\HmiGui\formula\AddFormulaGroupWnd\AddFormulaGroupWnd.h">
+      <Filter>formula\AddFormulaGroupWnd</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="..\..\..\HmiGui\formula\AddFormulaGroupWnd\AddFormulaGroupWnd.ui">
+      <Filter>formula\AddFormulaGroupWnd</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
